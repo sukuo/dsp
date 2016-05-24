@@ -67,6 +67,6 @@ The terminal editor that I've decided to use is emacs.  I do not mind the steep 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-The graphical editor that I will use is Spyder.  It comes pre-installed with anaconda and it supports Jupyter notebook so it supports a numerical computing environment.  It has features such as advanced editing, interactive testing and debugging so it is sufficient for my purposes.
+The graphical editor that I will use is Spyder.  It comes pre-installed with anaconda and it supports Jupyter notebook so it supports a numerical computing environment.  It has features such as advanced editing, interactive testing and debugging so it is sufficient for my purposes.  Best of all it's free (unlike Pycharm).
 
  
