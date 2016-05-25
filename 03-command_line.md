@@ -43,7 +43,7 @@ What do the following commands do:
 ls : lists all files and directories in the current directory not including ones starting with '.'<br />
 ls -a : lists all files and directories including the ones starting with a '.'<br />
 ls -l : lists files and directories in long format including information on permissions, owner, group, file size, date of last change, and its name<br />
-ls -lh : same format as 'ls -l' except it shows the size of the files all in bits (readable)<br />
+ls -lh : lists files and directories in long format except it shows the size of the files all in bits (readable)<br />
 ls -lah : lists all files (including those starting with a '.') and directories in long, human readable form<br />
 ls -t : lists and sorts files and directories by most recently modified <br />
 ls -Glp : lists files and directories in long format and highlights, places a '/' behind the directories<br />
