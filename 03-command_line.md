@@ -70,7 +70,7 @@ Five Favorite ls options:<br />
 
 What does `xargs` do? Give an example of how to use it.
 
-xargs allows you to string together arguments and execute them on standard inputs such as:  ls, find, delete, touch etc...
+`xargs` allows you to string together arguments and execute them on standard inputs such as:  ls, find, delete, touch etc...
 For example - if you happen to create a bunch of text files in a given directory that were incorrectly named, you could pipe the find function to find the '*.txt' files into xargs and it will go through the files one by one and execute commands (either rename or delete) on them.
 
  
