@@ -26,7 +26,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `mv <file> <directory>` : moves the file to the selected directory<br />
 `find <directory> "<filename>"` : finds all file with specified name in selected directory, can be used with * to find all files containing the "(filename)"<br />
 "up arrow" : recalls last command executed, can be pressed multiple times to see past commands executed from latest to earliest<br />
-`wc` : wordcount with options (-l : lines, -w : words, -c : byte size, -m : # of characters)
+`wc` : wordcount with options (-l : lines, -w : words, -c : byte size, -m : # of characters)<br />
+
+
 ---
 
 ###Q2.  List Files in Unix   
