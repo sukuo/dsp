@@ -52,7 +52,7 @@ I installed Python3 because most of the new literature that has come out in the 
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-Open a terminal window and type "python --version"
+Open a terminal window and type ```python --version```
 
  
 
