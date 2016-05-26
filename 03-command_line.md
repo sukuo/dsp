@@ -13,20 +13,20 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-cat (filename) : shows the contents of the file <br />
-pwd : shows the path of the directory you are currently in'<br />
-man (command) : pulls up all information for a given command, best way to find information!<br />
-grep (text) (filename) : outputs all instances of the text in the file<br />
-head -n (filename) : outputs the top n lines of the file<br />
-tail -n (filename) : outputs the bottom n lines of the file<br />
-touch (filename) : creates a file<br />
-clear : gives you a blank terminal window<br />
-rm -r (directory)/ : force removes a directory or file<br />
-mv (old_file) (new_file) : renames the old file to the new file name<br />
-mv (file) (directory) : moves the file to the selected directory<br />
-find (directory) "(filename)" : finds all file with specified name in selected directory, can be used with * to find all files containing the "(filename)"<br />
+`cat <filename>` : shows the contents of the file <br />
+`pwd` : shows the path of the directory you are currently in'<br />
+`man <command>` : pulls up all information for a given command, best way to find information!<br />
+`grep <text> <filename>` : outputs all instances of the text in the file<br />
+`head -n <filename>` : outputs the top n lines of the file<br />
+`tail -n <filename>` : outputs the bottom n lines of the file<br />
+`touch <filename>` : creates a file<br />
+`clear` : gives you a blank terminal window<br />
+`rm -r <directory>/` : force removes a directory or file<br />
+`mv <old_file> <new_file>` : renames the old file to the new file name<br />
+`mv <file> <directory>` : moves the file to the selected directory<br />
+`find <directory> "<filename>"` : finds all file with specified name in selected directory, can be used with * to find all files containing the "(filename)"<br />
 "up arrow" : recalls last command executed, can be pressed multiple times to see past commands executed from latest to earliest<br />
-wc : wordcount with options (-l : lines, -w : words, -c : byte size, -m : # of characters)
+`wc` : wordcount with options (-l : lines, -w : words, -c : byte size, -m : # of characters)
 ---
 
 ###Q2.  List Files in Unix   
@@ -40,13 +40,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls : lists all files and directories in the current directory not including ones starting with '.'<br />
-ls -a : lists all files and directories including the ones starting with a '.'<br />
-ls -l : lists files and directories in long format including information on permissions, owner, group, file size, date of last change, and its name<br />
-ls -lh : lists files and directories in long format except it shows the size of the files all in bits (readable)<br />
-ls -lah : lists all files (including those starting with a '.') and directories in long, human readable form<br />
-ls -t : lists and sorts files and directories by most recently modified <br />
-ls -Glp : lists files and directories in long format and highlights, places a '/' behind the directories<br />
+`ls` : lists all files and directories in the current directory not including ones starting with '.'<br />
+`ls -a` : lists all files and directories including the ones starting with a '.'<br />
+`ls -l` : lists files and directories in long format including information on permissions, owner, group, file size, date of last change, and its name<br />
+`ls -lh` : lists files and directories in long format except it shows the size of the files all in bits (readable)<br />
+`ls -lah` : lists all files (including those starting with a '.') and directories in long, human readable form<br />
+`ls -t` : lists and sorts files and directories by most recently modified <br />
+`ls -Glp` : lists files and directories in long format and highlights, places a '/' behind the directories<br />
 
 
 ---
