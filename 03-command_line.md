@@ -13,7 +13,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-`cat <filename>` : shows the contents of the file <br />
+>>`cat <filename>` : shows the contents of the file <br />
 `pwd` : shows the path of the directory you are currently in'<br />
 `man <command>` : pulls up all information for a given command, best way to find information!<br />
 `grep <text> <filename>` : outputs all instances of the text in the file<br />
@@ -42,7 +42,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls` : lists all files and directories in the current directory not including ones starting with '.'<br />
+>>`ls` : lists all files and directories in the current directory not including ones starting with '.'<br />
 `ls -a` : lists all files and directories including the ones starting with a '.'<br />
 `ls -l` : lists files and directories in long format including information on permissions, owner, group, file size, date of last change, and its name<br />
 `ls -lh` : lists files and directories in long format except it shows the size of the files all in bits (readable)<br />
@@ -57,7 +57,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-Five Favorite ls options:<br />
+>>Five Favorite ls options:<br />
 1)  -R<br />
 2)  -1<br />
 3)  -d<br />
@@ -70,7 +70,7 @@ Five Favorite ls options:<br />
 
 What does `xargs` do? Give an example of how to use it.
 
-`xargs` allows you to string together arguments and execute them on standard inputs such as:  ls, find, delete, touch etc...
+>>`xargs` allows you to string together arguments and execute them on standard inputs such as:  ls, find, delete, touch etc...
 For example - if you happen to create a bunch of text files in a given directory that were incorrectly named, you could pipe the find function to find the '*.txt' files into xargs and it will go through the files one by one and execute commands (either rename or delete) on them.
 
  
