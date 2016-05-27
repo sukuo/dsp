@@ -46,13 +46,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I installed Python3 because most of the new literature that has come out in the past years as well as in the future will be for Python3.  While it may not have some packages that are only available to Python2, it has all of the packages necessary to complete this data science program.
+>>I installed Python3 because most of the new literature that has come out in the past years as well as in the future will be for Python3.  While it may not have some packages that are only available to Python2, it has all of the packages necessary to complete this data science program.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-Open a terminal window and type ```python --version```
+>>Open a terminal window and type ```python --version```
 
  
 
