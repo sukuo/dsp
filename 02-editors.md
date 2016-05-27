@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
-The terminal editor that I've decided to use is emacs.  I do not mind the steep learning curve and also in the future, when I become more familiar with emacs, I will be able to extend its functionality and customize it for my purposes.
+>>The terminal editor that I've decided to use is emacs.  I do not mind the steep learning curve and also in the future, when I become more familiar with emacs, I will be able to extend its functionality and customize it for my purposes.
 
 --
 
@@ -67,6 +67,6 @@ The terminal editor that I've decided to use is emacs.  I do not mind the steep 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-The graphical editor that I will use is Spyder.  It comes pre-installed with anaconda and it supports Jupyter notebook so it supports a numerical computing environment.  It has features such as advanced editing, interactive testing and debugging so it is sufficient for my purposes.  Best of all it's free (unlike Pycharm).
+>>The graphical editor that I will use is Spyder.  It comes pre-installed with anaconda and it supports Jupyter notebook so it supports a numerical computing environment.  It has features such as advanced editing, interactive testing and debugging so it is sufficient for my purposes.  Best of all it's free (unlike Pycharm).
 
  
