@@ -42,7 +42,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
->>`ls` : lists all files and directories in the current directory not including ones starting with '.'<br />
+>>`ls` : lists all files and directories in the current directory not including ones starting with a '.'<br />
 `ls -a` : lists all files and directories including the ones starting with a '.'<br />
 `ls -l` : lists files and directories in long format including information on permissions, owner, group, file size, date of last change, and its name<br />
 `ls -lh` : lists files and directories in long format except it shows the size of the files all in bits (readable)<br />
