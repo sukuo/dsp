@@ -31,8 +31,8 @@ Performance differs depending on what the user is trying to do.  If you are tryi
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> The 'lambda' function is an anonymous function that useful when you only need to call a function once and only once.  Functions are useful because they reduce the amount of code however when a function is used only once, defining a function would actually create more code.  Using a lambda function in these situation makes things cleaner.<br />
-For example, if you wanted to classify homes as ranches or multi-levels based on how many floors it has, you could write a lambda function `lambda: "multi-level" if floors > 1 else "ranch"`<br />
+>> The `lambda` function is an anonymous function that useful when you only need to call a function once and only once.  Functions are useful because they reduce the amount of code however when a function is used only once, defining a function would actually create more code.  Using a lambda function in these situation makes things cleaner.<br />
+For example, if you wanted to classify homes once as ranches or multi-levels in some block of code based on how many floors it has, you could write a lambda function `lambda: "multi-level" if floors > 1 else "ranch"`<br />
 For the `key` argument in a `sorted` function, let's say that you had a list of tuples called `pro_players` that looked like:<br />
 `(last name, first name, wins, losses, ranking)`<br />
 If you wanted to sort by ranking, you would write<br />`sorted(pro_players, key=lambda player: player[4])`
