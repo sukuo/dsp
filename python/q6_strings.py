@@ -78,6 +78,11 @@ def fix_start(s):
 
 
 def mix_up(a, b):
+     af2 = a[:2]
+     al = a[2:]
+     bf2 = b[:2]
+     bl = b[2:]
+    return bf2+al + " " + af2+bl
     """
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
