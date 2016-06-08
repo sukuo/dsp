@@ -124,12 +124,12 @@ def verbing(s):
 
 
 def not_bad(s):
-     index1 = word.find("not")
-     index2 = word.find("bad")
-     if "not" in word and "bad" in word and index2 > index1:
-         return word[:index1] +""+ "good" +""+ word[(index2+3):]
-     else:
-         return word
+    index1 = s.find("not")
+    index2 = s.find("bad")
+    if "not" in s and "bad" in s and index2 > index1:
+        return s[:index1] +""+ "good" +""+ s[(index2+3):]
+    else:
+        return s
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
