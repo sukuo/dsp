@@ -150,6 +150,18 @@ def not_bad(s):
 
 
 def front_back(a, b):
+     if len(a)%2 != 0 and len(b)%2 != 0:
+        return a[:int(len(a)/2+1)] + b[:int(len(b)/2+1)]\
+        + a[int(len(a)/2+1):] + b[int(len(b)/2+1):]
+     elif len(a)%2 !=0 and len(b)%2 == 0:
+        return a[:int(len(a)/2+1)] + b[:int(len(b)/2)]\
+        + a[int(len(a)/2+1):] + b[int(len(b)/2):]
+     elif len(a)%2 == 0 and len(b)%2 != 0:
+        return a[:int(len(a)/2)] + b[:int(len(b)/2+1)]\
+        + a[int(len(a)/2):] + b[int(len(b)/2+1):]
+     else:
+        return a[:int(len(a)/2)] + b[:int(len(b)/2)]\
+        + a[int(len(a)/2):] + b[int(len(b)/2):]
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
