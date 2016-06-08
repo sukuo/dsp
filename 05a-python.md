@@ -44,7 +44,10 @@ If you wanted to sort by ranking, you would write<br />`sorted(pro_players, key=
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehension is an alternative to using lambda functions to define and create lists and uses a linguistic approach instead.  It is also substitute for the `map()` `reduce()` and `filter()` functions.<br />
+Suppose you wanted to create a list of cubes called "cbs" using the `map()` function and you had a list of numbers in the range of 0 to 10 called "nums" <br />
+`cbs = list(map((lambda x : x**3), nums))`<br />
+
 
 ---
 
