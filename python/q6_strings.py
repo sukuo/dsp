@@ -82,7 +82,7 @@ def mix_up(a, b):
      al = a[2:]
      bf = b[:2]
      bl = b[2:]
-    return bf2+al + " " + af2+bl
+     return bf2+al + " " + af2+bl
     """
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
@@ -101,6 +101,12 @@ def mix_up(a, b):
 
 
 def verbing(s):
+     if len(s) < 3:
+         return s
+     elif s[-3:] == "ing":
+        return s+"ly"
+     else:
+         return s+"ing"
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
