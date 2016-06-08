@@ -95,7 +95,9 @@ def remove_adjacent(nums):
     raise NotImplementedError
 
 
-def linear_merge(list1, list2):
+def linear_merge(list1, list2)
+    new = sorted((list1+list2))
+    return new
     """
     Given two lists sorted in increasing order, create and return a
     merged list of all the elements in sorted order. You may modify
