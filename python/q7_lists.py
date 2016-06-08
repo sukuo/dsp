@@ -24,6 +24,16 @@ def match_ends(words):
 
 
 def front_x(words):
+    start_x = []
+    regular = []
+    for i in words:
+        if i[0] == "x":
+            start_x.append(i)
+        else:
+            regular.append(i)
+        a = sorted(start_x)
+        b = sorted(regular)
+    return a+b
     """
     Given a list of strings, return a list with the strings in sorted
     order, except group all the strings that begin with 'x' first.
@@ -41,6 +51,8 @@ def front_x(words):
 
 
 def sort_last(tuples):
+    sort_by_last = sorted(tuples, key = lambda x: x[-1])
+    return sort_by_last
     """
     Given a list of non-empty tuples, return a list sorted in
     increasing order by the last element in each tuple.
