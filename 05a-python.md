@@ -47,6 +47,11 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >> List comprehension is an alternative to using lambda functions to define and create lists and uses a linguistic approach instead.  It is also substitute for the `map()` `reduce()` and `filter()` functions.<br />
 Suppose you wanted to create a list of cubes called "cbs" using the `map()` function and you had a list of numbers in the range of 0 to 10 called "nums" <br />
 `cbs = list(map((lambda x : x**3), nums))`<br />
+Filter is similar to the map funtion except it only returns the elements for which the function returns true.  So it would return the same list as "cbs" for a sequence of numbers starting from -10 to 10 if the filter function is defined only for positive numbers.<br />
+`map()` is better for creating lists while `filter()` is better for modifying lists.<br />
+Set comprehension is very similar to list comprehension except the resulting object is a set.<br />
+Dictionary comprehension is also very similar to list comprehension except the code would look like <br />
+`dict = {key:value for x in sequence}`
 
 
 ---
