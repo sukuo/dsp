@@ -30,5 +30,15 @@ delta_days = days_between(date_start, date_stop)
 print(delta_days)
 
 ####c)  
-date_start = '15-Jan-1994'  
-date_stop = '14-Jul-2015'  
+from datetime import datetime
+
+def days_between(d1, d2):
+    start = datetime.strptime(d1, '%d-%b-%Y')
+    stop = datetime.strptime(d2, '%d-%b-%Y')
+    return (stop - start).days
+               
+date_start = '15-Jan-1994'
+date_stop = '14-Jul-2015'
+
+delta_days = days_between(date_start, date_stop)
+print(delta_days)
