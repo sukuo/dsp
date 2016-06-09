@@ -10,7 +10,10 @@
 import csv
 
   def read_data(data):
-   # COMPLETE THIS FUNCTION
+    football_csv = open(data, 'r')
+    football_data = csv.reader(football_csv)
+    football_list = list(football_data)
+    return football_list
 
   def get_min_score_difference(self, parsed_data):
     # COMPLETE THIS FUNCTION
