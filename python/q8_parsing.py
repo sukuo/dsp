@@ -15,8 +15,16 @@ def read_data(data):
   football_list = list(football_data)
   return football_list
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+def get_min_score(parsed_data):
+    diff_list = []
+    i = 1
+    while i < len(read_data('football.csv')):
+        diff = abs(int(parsed_data[i][5]) - int(parsed_data[i][6]))
+        diff_list.append(diff)
+        i+=1
+    return min(diff_list)
+
+print("Minimum difference in PF and PA is", +get_min_score(read_data('football.csv')))
 
   def get_team(self, index_value, parsed_data):
     # COMPLETE THIS FUNCTION
