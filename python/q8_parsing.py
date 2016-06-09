@@ -8,6 +8,7 @@
 
 
 import csv
+from operator import itemgetter
 
 def read_data(data):
   football_csv = open(data, 'r')
@@ -26,5 +27,14 @@ def get_min_score(parsed_data):
 
 print("Minimum difference in PF and PA is", +get_min_score(read_data('football.csv')))
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+def get_team(parsed_data):
+    diff_list = []
+    i = 1
+    while i < len(read_data('football.csv')):
+        diff = abs(int(parsed_data[i][5]) - int(parsed_data[i][6]))
+        diff_list.append([parsed_data[i][0], diff])
+        i+=1
+    sorted_list = sorted(diff_list, key = itemgetter(1))
+    return sorted_list[0][0]
+
+print("The team with the smallest differential is"+" "+get_team(read_data('football.csv')))
