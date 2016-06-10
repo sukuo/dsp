@@ -17,7 +17,12 @@ fac_table = pd.read_csv('faculty.csv',
 
 degree = ' '.join(degree)
 degree = degree.split(" ")
+
 degree1 = [re.sub("Ph\.?D\.?", "PhD", elem) for elem in degree]
 degree2 = [re.sub("Sc\.?D\.?", "ScD", elem) for elem in degree1]
+
 freq = Counter(degree2)
-freq
+print(freq)
+
+fac_table['title'] = fac_table['title'].str.replace('As{2}i.+', 'Assistant Professor of Biostatistics')
+fac_table.groupby('title').count()
