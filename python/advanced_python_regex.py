@@ -1,5 +1,6 @@
-PART1 Q1
+PART1 
 
+Q1
 import csv
 import pandas as pd
 import numpy as np
