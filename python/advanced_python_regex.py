@@ -12,6 +12,7 @@ fac_table = pd.read_csv('faculty.csv',
                         skiprows = [0] , 
                         skipinitialspace=True)
 
+degree = fac_table['degree']
 degree = ' '.join(degree)
 degree = degree.split(" ")
 degree = [re.sub("Ph\.?D\.?", "PhD", elem) for elem in degree]
