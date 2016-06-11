@@ -17,7 +17,7 @@ degree = degree.split(" ")
 degree = [re.sub("Ph\.?D\.?", "PhD", elem) for elem in degree]
 degree = [re.sub("Sc\.?D\.?", "ScD", elem) for elem in degree]
 freq = Counter(degree)
-print(freq)
+pprint.pprint(freq)
 print('\n')
 
 fac_table['title'] = fac_table['title'].str.replace('As{2}i.+', 'Assistant Professor of Biostatistics')
@@ -31,4 +31,4 @@ emails = ' '.join(emails)
 emails = re.split(("@|\s"), emails )
 email_types = [i for i in emails if '.edu' in i]
 email_freq = Counter(email_types)
-email_freq
+pprint.pprint(email_freq)
