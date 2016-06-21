@@ -14,6 +14,9 @@ width=1</br>
 print("Mean of unbiased =", np.mean(a))</br>
 plt.bar(val, probs, width)</br>
 plt.show</br>
+__Mean of unbiased = 1.024205155043831__
+
+
 </br>
 </br>
 >>>#Stats question 3.1b</br>
@@ -34,4 +37,7 @@ answers or some other underlying issue with my code"""</br>
 average = [val[i]*biased_probs[i] for i in range(len(val))]</br>
 print("Average of biased distribution is", sum(average))</br>
 plt.bar(val, biased_probs, width)</br>
-plt.show
+plt.show</br>
+__Mean of biased = 2.46186052597__
+
+
