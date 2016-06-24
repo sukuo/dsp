@@ -78,7 +78,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In the frequentist's approach, parameters are fixed and you can collect data repeatedly through repeatabable random sampling.  Subjective margin of error is chosen to create inferences about the data.  In the Bayesian approach, parameters are assumed to be unknown and are described probabilistically (the data rather than the parameter is fixed).  Bayesian statistics integrates prior knowledge of the paramter and combines it with the data to create a posterior distribution.
 
 ---
 
